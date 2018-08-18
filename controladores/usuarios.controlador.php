@@ -17,6 +17,7 @@ class ControladorUsuarios{
 
 				$tabla = "usuarios";
 /* OJO  */
+/*----*/
 				$item = "usuario";
 				$valor = $_POST["ingUsuario"];
 
