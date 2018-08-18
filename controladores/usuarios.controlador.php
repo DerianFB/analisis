@@ -16,7 +16,7 @@ class ControladorUsuarios{
 			   	$pass_cifrada = password_hash($datos["password"], PASSWORD_DEFAULT);
 
 				$tabla = "usuarios";
-
+/* OJO  */
 				$item = "usuario";
 				$valor = $_POST["ingUsuario"];
 
